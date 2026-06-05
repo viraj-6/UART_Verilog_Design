@@ -44,4 +44,3 @@ module UART_Top (
     );
 
 endmodule
-//D:/FPGA/UART Transceiver/UART_Top.v
