@@ -107,5 +107,4 @@ module UART_Top_tb;
     end
 
 endmodule
-//D:/FPGA/UART Transceiver/UART_Top_tb.v
 
