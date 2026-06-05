@@ -17,7 +17,7 @@ module UART_tx(
     reg [2:0] current_state, next_state;
     reg [2:0] bit_count;
     reg       parity_reg;
-	 // NEW: The TX timer should only run when we are NOT in IDLE
+	
     wire tx_baud_enable = (current_state != IDL);
     
     wire baud_tick; // The pulse that acts like a metronome for our baud rate
